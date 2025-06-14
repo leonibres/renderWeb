@@ -1,0 +1,1 @@
+// No se encontraron colores en este archivo. No se realizaron cambios.

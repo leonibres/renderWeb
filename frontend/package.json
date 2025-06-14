@@ -1,0 +1,61 @@
+{
+  "name": "vuetemplate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "vue-cli-service build",
+    "start": "vue-cli-service serve",
+    "lint": "vue-cli-service lint",
+    "server": "npm run serve",
+    "test:unit": "jest"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.9.0",
+    "bootstrap": "^5.3.5",
+    "core-js": "^3.41.0",
+    "date-fns": "^4.1.0",
+    "express": "^5.1.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.1",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/compiler-sfc": "^3.5.13",
+    "@vue/test-utils": "^2.4.0-alpha.2",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.5.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "jest": "^26.6.3",
+    "path-browserify": "^1.0.1",
+    "sass": "^1.87.0",
+    "sass-loader": "^10.5.2",
+    "serve": "^14.2.4",
+    "vue-jest": "^5.0.0-alpha.10",
+    "webpack": "^5.99.7"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
